@@ -77,7 +77,7 @@ export default function Navigation() {
                   href="/gallery#unscripted-symphonies" 
                   className="block px-6 py-3 hover:bg-white/10 transition-colors"
                 >
-                  Unscripted Symphonies
+                  Shadows & Silhouettes
                 </Link>
               </div>
             </div>

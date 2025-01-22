@@ -45,7 +45,7 @@ export default function Home() {
     },
     {
       src: "/images/portfolio/unscripted-symphonies.jpg",
-      title: "Unscripted Symphonies",
+      title: "Shadows & Silhouettes",
       href: "/gallery#unscripted-symphonies"
     }
   ];
@@ -69,33 +69,10 @@ export default function Home() {
     <div className="max-w-[2000px] mx-auto">
       {/* Intro Section */}
       <section className="py-24 px-4 md:px-8 max-w-3xl mx-auto text-center">
-        <h1 className="text-3xl md:text-4xl font-light mb-8 tracking-wide">Jimmy Cheng</h1>
+        <h1 className="text-3xl md:text-4xl font-light mb-8 tracking-wide">Fragments of vision</h1>
         <p className="text-sm text-gray-600 leading-relaxed tracking-wide max-w-xl mx-auto">
-          New York City based photographer specializing in portrait and landscape photography. 
-          Capturing authentic moments with an emphasis on natural light and artistic composition.
+          Where Light Shapes Form and Shadows Carve Emotion.
         </p>
-      </section>
-
-      {/* Projects Section */}
-      <section className="mb-24 px-4 md:px-8">
-        <h2 className="text-lg font-light mb-12 tracking-widest text-center uppercase">Projects</h2>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-1">
-          {projects.map((project, i) => (
-            <Link href={project.href} key={i} className="relative aspect-[3/4] group">
-              <Image
-                src={project.src}
-                alt={project.title}
-                fill
-                className="object-cover transition-transform duration-700 group-hover:scale-105"
-              />
-              <div className="absolute inset-0 bg-black/30 opacity-0 group-hover:opacity-100 transition-all duration-500 flex items-center justify-center">
-                <p className="text-white text-sm tracking-widest uppercase transform translate-y-2 group-hover:translate-y-0 transition-transform duration-500">
-                  {project.title}
-                </p>
-              </div>
-            </Link>
-          ))}
-        </div>
       </section>
 
       {/* Featured Work Section */}

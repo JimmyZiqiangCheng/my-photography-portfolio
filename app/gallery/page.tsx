@@ -28,7 +28,7 @@ export default function Gallery() {
   const galleries = {
     'faded-memories': {
       title: 'Faded Memories',
-      description: 'A collection capturing the essence of nostalgia and timeless moments.',
+      description: 'capturing the essence of nostalgia.',
       images: [
         { src: "https://images.unsplash.com/photo-1511895426328-dc8714191300", aspect: "portrait" },
         { src: "https://images.unsplash.com/photo-1496843916299-590492c751f4", aspect: "landscape" },
@@ -39,7 +39,7 @@ export default function Gallery() {
     },
     'windswept-horizons': {
       title: 'Windswept Horizons',
-      description: 'Exploring the boundless beauty of landscapes and natural wonders.',
+      description: 'Exploring the path of nature and mankind.',
       images: [
         { src: "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b", aspect: "landscape-wide" },
         { src: "https://images.unsplash.com/photo-1433086966358-54859d0ed716", aspect: "portrait" },
@@ -48,8 +48,8 @@ export default function Gallery() {
       ]
     },
     'unscripted-symphonies': {
-      title: 'Unscripted Symphonies',
-      description: 'Spontaneous moments that tell stories of life\'s unexpected beauty.',
+      title: 'Shadows & Silhouettes',
+      description: 'Sculpting light with shadows.',
       images: [
         { src: "https://images.unsplash.com/photo-1532635241-17e820acc59f", aspect: "portrait" },
         { src: "https://images.unsplash.com/photo-1551316679-9c6ae9dec224", aspect: "landscape-wide" },
